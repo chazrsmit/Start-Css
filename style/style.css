@@ -97,21 +97,37 @@ header {
     align-items: center;
 }
 
-.imgs-rangee {
+.section1-titre h2 {
+    font-family: "Montserrat";
+    color:#2c3e50;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.imgs-rangee1 {
     display: flex;
-    border: solid rgb(218, 0, 0) 2px;
+    /* border: solid rgb(218, 0, 0) 2px; */
     justify-content: center;
     align-items: center;
     gap:30px;
 }
 
+.imgs-rangee2 {
+    display: flex;
+    /* border: solid rgb(218, 0, 0) 2px; */
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    margin-top:22px;
+}
+
 .imgs {
-    border: solid black 2px;
+    /* border: solid black 2px; */
 }
 
 
 .imgs img {
     width:270px;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 8px;
+    margin: 5px;
 }
