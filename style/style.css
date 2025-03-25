@@ -1,0 +1,36 @@
+body {
+    padding:0;
+    margin:0;
+}
+
+html {
+    margin:0;
+    padding:0;
+}
+
+nav {
+    background-color: #2c3e50;
+    height:10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titre p {
+    color:white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.navbar {
+    display: flex;
+    gap:20px;
+}
+
+.navbar p {
+    color:white;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight:700;
+}
