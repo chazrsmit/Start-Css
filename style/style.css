@@ -89,11 +89,20 @@ header {
     margin-top: -20px;
 }
 
+/* Section 1 - portfolio */
+
+.section1-titre {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .imgs-rangee {
     display: flex;
     border: solid rgb(218, 0, 0) 2px;
     justify-content: center;
     align-items: center;
+    gap:30px;
 }
 
 .imgs {
@@ -102,5 +111,7 @@ header {
 
 
 .imgs img {
-    width:300px;
+    width:270px;
+    border-radius: 10px;
+    margin: 10px;
 }
