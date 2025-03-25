@@ -154,7 +154,7 @@ header {
 .about-all {
     padding-top:35px;
     width:37vw;
-    height:50vh;
+    height:40vh;
     /* border: black solid 2px; */
 }
 
@@ -175,6 +175,7 @@ header {
     display:flex;
     gap:30px;
     justify-content: space-between;
+    margin-top: -25px;
     /* border: solid black 2px; */
 }
 
