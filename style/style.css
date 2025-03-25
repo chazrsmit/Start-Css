@@ -30,9 +30,8 @@ nav {
 
 .navbar {
     display: flex;
-    gap:20px;
+    gap:25px;
     /* border:white solid 2px; */
-    padding-left:10px;
 }
 
 .navbar p {
