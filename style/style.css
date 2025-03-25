@@ -16,16 +16,23 @@ nav {
     align-items: center;
 }
 
+.titre {
+    /* border:white solid 2px; */
+    padding-right: 120px;
+}
+
 .titre p {
     color:white;
     font-family: "Montserrat";
     font-weight: 700;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 .navbar {
     display: flex;
     gap:20px;
+    /* border:white solid 2px; */
+    padding-left:10px;
 }
 
 .navbar p {
@@ -33,4 +40,11 @@ nav {
     font-family: "Montserrat";
     font-size: 13px;
     font-weight:700;
+}
+
+/* Header */
+
+header {
+    background-color: #dc3545;
+    height:62vh;
 }
