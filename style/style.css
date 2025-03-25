@@ -60,7 +60,7 @@ header {
 }
 
 .header-img {
-    width:12vw;
+    width:12.5vw;
 }
 
 .header-titres {
@@ -87,4 +87,20 @@ header {
     font-weight: 400;
     /* border: solid black 2px; */
     margin-top: -20px;
+}
+
+.imgs-rangee {
+    display: flex;
+    border: solid rgb(218, 0, 0) 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs {
+    border: solid black 2px;
+}
+
+
+.imgs img {
+    width:300px;
 }
