@@ -1,6 +1,8 @@
 body {
     padding:0;
     margin:0;
+    font-family: "Lato";
+    line-height: 1.5;
 }
 
 html {
@@ -31,7 +33,7 @@ nav {
 .navbar {
     display: flex;
     gap:30px;
-    padding-right: 25px;
+    /* padding-right: 25px; */
     /* border:white solid 2px; */
 }
 
@@ -95,6 +97,7 @@ header {
 
 .section1 {
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .section1-titre {
@@ -136,4 +139,51 @@ header {
     width:270px;
     border-radius: 8px;
     margin: 5px;
+}
+
+/* Section 2 - About */
+
+.about {
+    background-color: #dc3545;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: solid black 2px; */
+}
+
+.about-all {
+    width:36vw;
+    height:50vh;
+    /* border: black solid 2px; */
+}
+
+.about-titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-titre h2 {
+    color:white;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.about-textes {
+    display:flex;
+    gap:20px;
+    justify-content: space-between;
+    /* border: solid black 2px; */
+}
+
+.about-textes p {
+    /* border: solid black 2px; */
+    flex:1;
+}
+
+.about-textes p {
+    color:white;
+    font-family: "Lato";
+    font-size: 16px;
 }
