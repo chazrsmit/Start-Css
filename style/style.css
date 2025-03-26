@@ -593,6 +593,12 @@ footer {
     /* border: white 2px solid; */
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    .footer-div2 {
+        padding-bottom: 16px;
+    }
+}
+
 .footer-div1-titre, .footer-div2-titre, .footer-div3-titre {
     display: flex;
     justify-content: center;
