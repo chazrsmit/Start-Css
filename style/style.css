@@ -193,6 +193,11 @@ header {
 
 /* Section Contact */
 
+.contact {
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
 .contact-titre {
     display: flex;
     justify-content: center;
@@ -216,11 +221,6 @@ header {
     width: 500px;
     border:black 2px solid;
 } */
-
-.contact {
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 
 .contact-form form input, .contact-form form textarea {
     border: none;
@@ -291,10 +291,13 @@ footer {
     display: flex;
     justify-content: center;
     color:white;
+    padding-top:35px;
+    gap:40px;
 }
 
 .footer-div1, .footer-div2, .footer-div3 {
-    width:300px;
+    width:260px;
+    /* border: white 2px solid; */
 }
 
 .footer-div1-titre, .footer-div2-titre, .footer-div3-titre {
@@ -317,10 +320,11 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top:-20px;
 }
 
 .footer-icons {
-    padding-top: 13px;
+    padding-top: 15px;
 }
 
 .fa-facebook-f {
