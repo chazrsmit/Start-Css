@@ -29,6 +29,10 @@
         color:white;
         font-size: 26px;
     }
+
+    .fa-bars:active {
+        color:#1ABC92;
+    }
 }
 
     
@@ -200,6 +204,27 @@ header {
     /* border: solid black 2px; */
 }
 
+
+}
+
+.header-titres h1 {
+    animation: 1.5s flip ease infinite;
+}
+
+@keyframes flip {
+    0% {
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+    50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    } }
+
 .header-titres h3 {
     color:white;
     font-family: "Lato";
@@ -209,8 +234,6 @@ header {
     margin-top: -20px;
     letter-spacing: -0.5px;
     text-align: center;
-}
-
 }
 
 /* Section 1 - portfolio */
