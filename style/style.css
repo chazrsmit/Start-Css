@@ -227,12 +227,12 @@ header {
     border-bottom: 1px solid rgb(227, 227, 227);
     width: 560px;
     padding-bottom: 30px;
-    transition: all 0.3s;
+    transition: all 0.15s;
 }
 
-.contact-form form input:focus {
+.contact-form form input:focus,  .contact-form form textarea:focus {
     outline: none;
-    border-bottom: 1px solid #2c3e50;
+    border-bottom: 5px dotted rgb(227, 227, 227);
 }
 
 .contact-form form textarea {
