@@ -16,6 +16,21 @@
     
 /* Nav */
 
+.hamburger {
+    display: hidden;
+}
+
+@media (max-width:576px) {
+    .hamburger {
+        display:block;
+    }
+
+    .fa-bars {
+        color:white;
+        font-size: 26px;
+    }
+}
+
     
 nav {
     background-color: #2c3e50;
