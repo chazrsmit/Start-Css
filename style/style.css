@@ -17,7 +17,7 @@
 /* Nav */
 
 .hamburger {
-    display: hidden;
+    display: none;
 }
 
 @media (max-width:576px) {
