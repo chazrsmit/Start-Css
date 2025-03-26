@@ -20,6 +20,15 @@
     display: none;
 }
 
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dbe600, 0 0 40px #dbe600, 0 0 50px #dbe600, 0 0 60px #dbe600, 0 0 70px #dbe600;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #1ABC92, 0 0 40px #1ABC92, 0 0 50px #1ABC92, 0 0 60px #1ABC92, 0 0 70px #1ABC92, 0 0 80px #1ABC92;
+    }
+}
+
 @keyframes bounceburg {
     0% {
         transform: translateY(0px);
@@ -48,14 +57,18 @@
 @media (max-width:576px) {
     .hamburger {
         display:block;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out 1 infinite alternate;
     }
 
-    .hamburger:active {
-        animation: bounceburg 0.5s ease-in-out 1;
-    }
+    /* .hamburger:active {
+        animation: bounceburg 0.5s ease-in-out 1, glow 1s ease-in-out 1;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+    } */
 
     .hamburger:hover {
-        animation: bounceburg 0.5s ease-in-out 1;
+        animation: bounceburg 0.5s ease-in-out 1, glow 1s ease-in-out infinite alternate;
+        -webkit-animation: glow 1s ease-in-out 1 infinite alternate;
     }
 
     /* .fa-bars:hover {
