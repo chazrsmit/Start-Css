@@ -53,7 +53,18 @@ nav {
 
 }
 
+/* Navbar sur tablette */
+
 /* Navbar sur écran */
+
+@media (min-width:576px) and (max-width:768px) {
+    .navbar {
+        display: flex;
+        gap:30px;
+        /* padding-right: 25px; */
+        /* border:white solid 2px; */
+    }
+}
 
 @media (min-width:768px) {
 
@@ -91,6 +102,12 @@ header {
     }
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    .header-img {
+        width:30vw;
+    }
+}
+
 @media (min-width:768px) {
 
 .header-img {
@@ -109,6 +126,30 @@ header {
 }
 
 @media (max-width:576px) { 
+    .header-titres h1 {
+        color:white;
+        font-family: "Montserrat";
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        padding:10px;
+    }
+
+    .header-titres h3 {
+        color:white;
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 400;
+        /* border: solid black 2px; */
+        margin-top: -20px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        padding: 10px;
+    }
+ }
+
+ @media (min-width:576px) and (max-width:768px) {
     .header-titres h1 {
         color:white;
         font-family: "Montserrat";
@@ -176,6 +217,12 @@ header {
     }
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    .section1-titre {
+        margin-bottom: 20px;
+    }
+}
+
 .section1-titre h2 {
     font-family: "Montserrat";
     color:#2c3e50;
@@ -204,6 +251,34 @@ header {
         margin-top:21px;
     }
     }
+
+/* Modif des imgs + rangées d'images sur tablette */
+
+@media (min-width:576px) and (max-width:768px) {
+
+    .imgs img {
+        width:70vw;
+        border-radius: 8px;
+    }
+
+    .imgs-rangee1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:21px;
+    }
+    
+    .imgs-rangee2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap:21px;
+        margin-top:21px;
+    }
+    }
+
 
 
 /* Modif des rangées d'images sur écran */
