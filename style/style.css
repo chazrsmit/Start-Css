@@ -192,6 +192,12 @@ header {
 
 /* Section Contact */
 
+.contact-titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .contact-titre h2 {
     font-family: "Montserrat";
     color:#2c3e50;
@@ -199,8 +205,29 @@ header {
     font-size: 36px;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .contact-form form {
+    width: 500px;
+    border:black 2px solid;
+} */
+
+.contact-form form input, .contact-form form textarea {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 500px;
+}
+
+.contact-form form textarea {
+    resize:none;
+}
+
 .contact-form form label {
     font-family: "Lato";
-    font-size: 20px;
+    font-size: 18px;
     color:#6C777D;
 }
