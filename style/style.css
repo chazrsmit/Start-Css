@@ -277,9 +277,9 @@ header {
 @media (min-width:768px) {
     .about-all {
         padding-top:40px;
-        padding-bottom: 35px;
+        padding-bottom: 40px;
         width:37vw;
-        height:55vh;
+        height:auto;
         /* border: black solid 2px; */
     }
     
@@ -381,17 +381,30 @@ header {
     align-items: center;
 }
 
+
 /* .contact-form form {
     width: 500px;
     border:black 2px solid;
 } */
 
+@media (max-width:576px) {
+    .contact-form form input, .contact-form form textarea {
+        border: none;
+        border-bottom: 1px solid rgb(227, 227, 227);
+        width: 80vw;
+        padding-bottom: 30px;
+        transition: all 0.15s;
+    }
+    }
+
+@media (min-width:768px) {
 .contact-form form input, .contact-form form textarea {
     border: none;
     border-bottom: 1px solid rgb(227, 227, 227);
     width: 560px;
     padding-bottom: 30px;
     transition: all 0.15s;
+}
 }
 
 .contact-form form input:focus,  .contact-form form textarea:focus {
