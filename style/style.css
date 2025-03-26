@@ -183,7 +183,10 @@ header {
 .header-img {
     width:12.5vw;
 }
+}
 
+.header-img {
+    animation: slide-in 1s ease-in forwards;
 }
 
 .header-titres {
@@ -193,6 +196,18 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+@keyframes slide-in {
+    0% {
+        transform:translateX(-60vw);
+        opacity: 0;
+    }
+
+    100% {
+        transform:translateX(0%);
+        opacity: 1;
+    }
 }
 
 @media (max-width:576px) { 
