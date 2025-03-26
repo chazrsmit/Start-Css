@@ -579,6 +579,15 @@ footer {
     flex-wrap: wrap;
 }
 
+@media (min-width:576px) and (max-width:768px) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+    }
+}
+
 .footer-div1, .footer-div2, .footer-div3 {
     width:260px;
     /* border: white 2px solid; */
