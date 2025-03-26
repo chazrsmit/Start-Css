@@ -37,6 +37,26 @@ nav {
     font-size: 22px;
 }
 
+.navbar p {
+    color:white;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight:700; }
+
+/* Disparition navbar sur mobile et tablette */
+
+@media (max-width:576px) {
+
+    .navbar {
+        display: none;
+    }
+
+}
+
+/* Navbar sur écran */
+
+@media (min-width:768px) {
+
 .navbar {
     display: flex;
     gap:30px;
@@ -44,11 +64,6 @@ nav {
     /* border:white solid 2px; */
 }
 
-.navbar p {
-    color:white;
-    font-family: "Montserrat";
-    font-size: 13px;
-    font-weight:700;
 }
 
 /* Header */
@@ -69,8 +84,19 @@ header {
     /* border: solid black 2Px; */
 }
 
+@media (max-width:576px) {
+
+    .header-img {
+        width:40vw;
+    }
+}
+
+@media (min-width:768px) {
+
 .header-img {
     width:12.5vw;
+}
+
 }
 
 .header-titres {
@@ -79,7 +105,34 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
+@media (max-width:576px) { 
+    .header-titres h1 {
+        color:white;
+        font-family: "Montserrat";
+        font-size: 50px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        padding:10px;
+    }
+
+    .header-titres h3 {
+        color:white;
+        font-family: "Lato";
+        font-size: 20px;
+        font-weight: 400;
+        /* border: solid black 2px; */
+        margin-top: -20px;
+        letter-spacing: -0.5px;
+        text-align: center;
+        padding: 10px;
+    }
+ }
+
+@media (min-width:768px) {
 
 .header-titres h1 {
     color:white;
@@ -87,6 +140,7 @@ header {
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
+    text-align: center;
     /* border: solid black 2px; */
 }
 
@@ -98,6 +152,9 @@ header {
     /* border: solid black 2px; */
     margin-top: -20px;
     letter-spacing: -0.5px;
+    text-align: center;
+}
+
 }
 
 /* Section 1 - portfolio */
@@ -111,6 +168,12 @@ header {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:576px) {
+    .section1-titre {
+        margin-bottom: 10px;
+    }
 }
 
 .section1-titre h2 {
@@ -129,7 +192,7 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap:22px;
+        gap:21px;
     }
     
     .imgs-rangee2 {
@@ -137,8 +200,8 @@ header {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap:22px;
-        margin-top:22px;
+        gap:21px;
+        margin-top:21px;
     }
     }
 
