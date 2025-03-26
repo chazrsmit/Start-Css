@@ -301,7 +301,7 @@ footer {
     display: flex;
     justify-content: center;
     font-family: "Montserrat";
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .footer-icons {
@@ -309,8 +309,8 @@ footer {
 }
 
 .footer-icons div {
-    margin-left:5px;
-    margin-right:5px;
+    margin-left:4px;
+    margin-right:4px;
 }
 
 .footer-div1-p, .footer-icons, .footer-div3-p {
@@ -354,6 +354,7 @@ footer {
 
 .fa-dribbble {
     border: 2px white solid;
-    padding: 10px;
+    padding: 12px;
     border-radius: 50%;
+    font-size: 14px;
 }
