@@ -189,3 +189,18 @@ header {
     font-family: "Lato";
     font-size: 16px;
 }
+
+/* Section Contact */
+
+.contact-titre h2 {
+    font-family: "Montserrat";
+    color:#2c3e50;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.contact-form form label {
+    font-family: "Lato";
+    font-size: 20px;
+    color:#6C777D;
+}
