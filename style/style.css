@@ -48,7 +48,7 @@ nav {
 
 header {
     background-color: #dc3545;
-    height:62vh;
+    height:510px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,14 +225,38 @@ header {
     border: none;
     border-bottom: 1px solid rgb(227, 227, 227);
     width: 560px;
+    padding-bottom: 30px;
 }
 
 .contact-form form textarea {
     resize:none;
 }
 
-.contact-form form input::placeholder,  .contact-form form textarea::placeholder{
+/* .contact-form form input::placeholder,  .contact-form form textarea::placeholder{
     font-family: "Lato";
     font-size: 18px;
     color:#6C777D;
+} */
+
+input[placeholder]:active, input[placeholder] {
+    font-family: "Lato";
+    font-size: 18px;
+    color:#6C777D;
+    border:none;
+}
+
+textarea[placeholder]:focus, textarea[placeholder]:active, textarea[placeholder] {
+    font-family: "Lato";
+    font-size: 18px;
+    color:#6C777D;
+}
+
+.contact-form form label {
+    display:none;
+}
+
+input[placeholder]:focus, textarea[placeholder]:focus {
+    font-size: 16px;
+    outline: none;
+    transition: all 0.3s ;
 }
