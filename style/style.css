@@ -385,9 +385,10 @@ header {
 
 @media (min-width:992px) {
     .about-all {
-        padding-top:35px;
+        padding-top:30px;
+        padding-bottom: 80px;
         width:37vw;
-        height:40vh;
+        height:auto;
         /* border: black solid 2px; */
     }
     
