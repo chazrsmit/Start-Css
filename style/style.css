@@ -372,3 +372,20 @@ footer {
 .footer-div3-p a:hover {
     color:#dc3545
 }
+
+/* Copyright */
+
+.copyright {
+    background-color: #1A252F;
+    height:6.5vh;
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy-text p {
+    margin: 0;
+    color:white;
+    font-size: 11px;
+}
