@@ -339,7 +339,7 @@ header {
 @media (max-width:576px) {
     .about-all {
         padding-top:40px;
-        padding-bottom: 35px;
+        padding-bottom: 40px;
         /* padding-left: 20px;
         padding-right: 20px; */
         width:70vw;
@@ -352,7 +352,7 @@ header {
 @media (min-width:576px) and (max-width:768px) {
     .about-all {
         padding-top:40px;
-        padding-bottom: 35px;
+        padding-bottom: 40px;
         /* padding-left: 20px;
         padding-right: 20px; */
         width:70vw;
@@ -426,14 +426,6 @@ header {
     }
 }
 
-/* @media (min-width:576px) and (max-width:768px) {
-    .about-textes {
-        display:flex;
-        justify-content: center;
-        margin-top: -30px;
-        /* border: solid black 2px; */
-    }
-} */
 
 @media (min-width:768px) {
 
@@ -499,6 +491,16 @@ header {
         transition: all 0.15s;
     }
     }
+
+@media (min-width:576px) and (max-width:768px) {
+        .contact-form form input, .contact-form form textarea {
+            border: none;
+            border-bottom: 1px solid rgb(227, 227, 227);
+            width: 80vw;
+            padding-bottom: 30px;
+            transition: all 0.15s;
+        }
+        }
 
 @media (min-width:768px) {
 .contact-form form input, .contact-form form textarea {
