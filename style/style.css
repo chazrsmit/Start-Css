@@ -219,6 +219,7 @@ header {
 
 .contact {
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .contact-form form input, .contact-form form textarea {
@@ -259,4 +260,19 @@ input[placeholder]:focus, textarea[placeholder]:focus {
     font-size: 16px;
     outline: none;
     transition: all 0.3s ;
+}
+
+.contact-form form button {
+    background-color: #dc3545;
+    color:white;
+    font-family: "Lato";
+    font-size: 14px;
+    padding-left: 25px;
+    padding-right:25px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    margin-top: 10px;
 }
