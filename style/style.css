@@ -227,6 +227,12 @@ header {
     border-bottom: 1px solid rgb(227, 227, 227);
     width: 560px;
     padding-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.contact-form form input:focus {
+    outline: none;
+    border-bottom: 1px solid #2c3e50;
 }
 
 .contact-form form textarea {
@@ -257,7 +263,7 @@ textarea[placeholder]:focus, textarea[placeholder]:active, textarea[placeholder]
 }
 
 input[placeholder]:focus, textarea[placeholder]:focus {
-    font-size: 16px;
+    padding-left: 10px;
     outline: none;
     transition: all 0.3s ;
 }
@@ -266,7 +272,7 @@ input[placeholder]:focus, textarea[placeholder]:focus {
     background-color: #dc3545;
     color:white;
     font-family: "Lato";
-    font-size: 14px;
+    font-size: 15px;
     padding-left: 25px;
     padding-right:25px;
     padding-top: 16px;
