@@ -308,11 +308,52 @@ footer {
     display:flex;
 }
 
+.footer-icons div {
+    margin-left:5px;
+    margin-right:5px;
+}
+
 .footer-div1-p, .footer-icons, .footer-div3-p {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .footer-icons {
     padding-top: 13px;
+}
+
+.fa-facebook-f {
+    border: 2px white solid;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50%;
+    font-size: 14px;
+    
+}
+
+.fa-twitter {
+    border: 2px white solid;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+
+.fa-linkedin-in {
+    border: 2px white solid;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 14px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.fa-dribbble {
+    border: 2px white solid;
+    padding: 10px;
+    border-radius: 50%;
 }
