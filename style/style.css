@@ -20,6 +20,15 @@
     display: none;
 }
 
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
 @-webkit-keyframes glow {
     from {
       text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dbe600, 0 0 40px #dbe600, 0 0 50px #dbe600, 0 0 60px #dbe600, 0 0 70px #dbe600;
@@ -61,14 +70,9 @@
         animation: glow 1s ease-in-out 1 infinite alternate;
     }
 
-    /* .hamburger:active {
-        animation: bounceburg 0.5s ease-in-out 1, glow 1s ease-in-out 1;
-        -webkit-animation: glow 1s ease-in-out infinite alternate;
-    } */
-
     .hamburger:hover {
-        animation: bounceburg 0.5s ease-in-out 1, glow 1s ease-in-out infinite alternate;
         -webkit-animation: glow 1s ease-in-out 1 infinite alternate;
+        animation: bounceburg 0.5s ease-in-out 1, glow 1s ease-in-out infinite alternate;
     }
 
     /* .fa-bars:hover {
@@ -78,6 +82,7 @@
     .fa-bars {
         color:white;
         font-size: 26px;
+        animation: fadeIn 0.1s ease-in-out 1;
     }
 
     /* .fa-bars:active {
@@ -119,6 +124,7 @@ nav {
 
     .navbar {
         display: none;
+        transition: all 0.5s;
     }
 
 }
@@ -130,6 +136,7 @@ nav {
 @media (min-width:576px) and (max-width:768px) {
     .navbar {
         display: flex;
+        animation: fadeIn 0.1s ease-in;
         gap:30px;
         /* padding-right: 25px; */
         /* border:white solid 2px; */
@@ -140,6 +147,7 @@ nav {
 
 .navbar {
     display: flex;
+    animation: fadeIn 0.1s ease-in;
     gap:30px;
     /* padding-right: 25px; */
     /* border:white solid 2px; */
