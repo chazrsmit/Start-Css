@@ -103,6 +103,7 @@ nav {
 .titre {
     /* border:white solid 2px; */
     padding-right: 160px;
+    text-align: center;
 }
 
 .titre p {
